@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+pqc_env/
+env/
+ENV/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated benchmark outputs
+results/*.csv
+results/*.png
+results/*.svg
+
+# Local tooling
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
